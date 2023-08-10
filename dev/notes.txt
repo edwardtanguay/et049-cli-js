@@ -1,0 +1,14 @@
+- create a page generator
+	- type: npm cp conference.html "Berlin Conference"
+		- create conference.html
+			-----------------------------------
+			<html>
+			<head>
+				<title>Berlin Conference</title>
+			</head>
+			<body>
+				<h1>Berlin Conference</h1>
+				<p>Welcome to this site.</p>
+			</body>
+			</html>
+			-----------------------------------

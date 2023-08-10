@@ -1,0 +1,12 @@
+{
+  "name": "et049-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cp": "node cli/cp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,6 +1,7 @@
 import fs from 'fs';
 
-const title = process.argv[2];
+const fileName = process.argv[2];
+const title = process.argv[3];
 
 const html = `<!DOCTYPE html>
 <html lang="en">
@@ -15,4 +16,4 @@ const html = `<!DOCTYPE html>
 </body>
 </html>`;
 
-fs.writeFileSync('index.html', html, { encoding: 'utf8' });
+fs.writeFileSync(fileName, html, { encoding: 'utf8' });
